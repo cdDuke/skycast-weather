@@ -1,4 +1,20 @@
-# SkyCast — погодное приложение
+<div align="center">
+
+# SkyCast
+
+**Погодное приложение с живым фоном** · RU / EN
+
+<a href="https://cdduke.github.io/skycast-weather/"><img src="https://img.shields.io/badge/▶_Живое_демо-открыть-2ea44f?style=for-the-badge" alt="Live demo"></a>
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Canvas](https://img.shields.io/badge/Canvas-E34F26?style=flat-square) ![Open-Meteo](https://img.shields.io/badge/Open--Meteo-FF8C00?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Responsive](https://img.shields.io/badge/Адаптив-телефон_·_планшет_·_ПК-0ea5e9?style=flat-square)
+
+<img src="docs/preview-desktop.png" alt="SkyCast — десктоп" width="73%">&nbsp;<img src="docs/preview-mobile.png" alt="SkyCast — телефон" width="22%">
+
+*🇬🇧 Weather app on the Open-Meteo API — city search combobox, geolocation, hourly chart, 7-day forecast, canvas rain/snow/lightning.*
+
+</div>
+
+---
 
 Прогноз погоды с «живым» фоном, который меняется под реальную погоду и время суток в выбранном городе:
 дождь и снег рисуются на Canvas, при грозе — вспышки молний, ночью — звёзды.
@@ -36,3 +52,6 @@ npm run build    # tsc + сборка
 ---
 
 *Weather data by [Open-Meteo.com](https://open-meteo.com/) (CC BY 4.0). Portfolio project. Bilingual: Russian / English.*
+
+
+**Демо:** https://cdduke.github.io/skycast-weather/
